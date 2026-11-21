@@ -4,8 +4,8 @@ public class Passenger {
     private int passengerID;
     private String passengerName;
     private int flightNumber;
-    private String ticketClass;
-    private char boardingGroup;   // 'A' is for business class and priority boarding. 'B' is for economy class
+    private String ticketClass; //First Class=1,Business Class=2,Economy Class=3
+    private char boardingGroup;   // 'A' is for first class and business boarding. 'B' is for economy class
 
     public Passenger(int id, String passengerName, int flightNumber,String ticketClass, char boardingGroup) {
         this.passengerID =passengerID;

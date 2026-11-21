@@ -6,14 +6,6 @@ public class PassengerNode {
 
 
 
-
-
-
-
-
-
-
-
     public PassengerNode(Passenger data, Passenger next) {
         this.data = data;
         this.next = null;
